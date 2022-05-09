@@ -1,0 +1,13 @@
+---
+ - name: Playbook install apache2
+   hosts: ec2
+   become: true
+   tasks:
+   - name: ansible  install apache2
+     apt : 
+      name:  appache2
+      state: present
+   handlers:
+    - name: start apache2
+      service: name=apache2 state=started
+
