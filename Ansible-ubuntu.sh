@@ -55,8 +55,8 @@ chown ubuntu:uobuntu "key.pem"
 aws s3 cp s3://code-sharing-bucket/jespo/ansible/ec2.py .
 aws s3 cp s3://code-sharing-bucket/jespo/ansible/ec2.ini .
 # Configure credential for the master server 
-export AWS_ACCESS_KEY_ID='AKIAYSHKVTCPW7W73H3U'
-export AWS_SECRET_ACCESS_KEY='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'
+export AWS_ACCESS_KEY_ID='xxxxxxxxxx'
+export AWS_SECRET_ACCESS_KEY='xxxxxxxxxxxxxxxxxx'
 
 # Give both files executable permisssions
 #github link
